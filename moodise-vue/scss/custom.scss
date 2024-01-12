@@ -1,0 +1,157 @@
+$primary: #F2BB16;
+$secondary: #B2BF4E;
+$body-bg: #FAF7EF;
+$text-color: #707062;
+
+$card-columns-count: 4 !important;
+
+img.card-img-top {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+
+}
+
+input[type=text] {
+    border-color: $primary;
+    border-radius: 30px
+}
+
+
+input[type=password] {
+    border-color: $primary;
+    border-radius: 30px;
+}
+
+input[type=email] {
+    border-color: $primary;
+    border-radius: 30px;
+}
+
+#submit-button {
+    background-color: $secondary;
+    border-radius: 30px;
+    border-color: transparent;
+    width: 100px;
+    color: white
+}
+
+#submit-button:hover,
+#submit-button:focus {
+    box-shadow: none;
+    box-shadow: -4px 4px 8px 1px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#nav-button {
+    background: none;
+    border: none;
+    padding: 13px;
+    color: white
+}
+
+#nav-button:hover,
+#nav-button:focus {
+    background-color: $secondary;
+    border-radius: 0;
+    box-shadow: -4px 4px 8px 1px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+#picture-card {
+    border-color: $secondary;
+    border-radius: 3%;
+}
+
+// Login.vue
+.login-img {
+    width: 450px;
+    height: 489px;
+    margin: 15px;
+}
+
+#login-group-form {
+    color: $text-color;
+}
+
+#login-img {
+    background-image: linear-gradient(#909E3F, #A7B448, #949F40)
+}
+
+#loginStatusForm {
+    font-size: 15px;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-color: $secondary;
+    border-radius: 25%;
+}
+
+#socialMediaIcon {
+    width: 30px;
+    height: 30px;
+}
+
+#socialMediaBtn {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0%;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+#socialMediaBtn:hover,
+#socialMediaBnt:focus {
+    box-shadow: none;
+    box-shadow: -4px 4px 8px 1px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+// Profile.vue
+
+#userAvatar {
+    width: 183px;
+    height: 183px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+html {
+    background-color: $body-bg;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+// UserItem.vue
+#userAvatarUsersPage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#userButton {
+    border-radius: 0%;
+    border-color: $secondary;
+    color: $text-color;
+    border-bottom: none;
+
+}
+
+#userButton:focus,
+#userButton:hover {
+    background-color: $secondary;
+    color: white;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-vue/src/index.scss";
